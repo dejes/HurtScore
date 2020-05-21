@@ -8,11 +8,9 @@
 
 import Foundation
 
-var HurtsArr=[Hurt]()
-
 struct Hurt: Codable{
-    var Score:Int
-    var time:String
+    var PtNum:String?
+    var ScoreAndTime = [Details?]()
     
     static let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     
@@ -35,3 +33,10 @@ struct Hurt: Codable{
         }
     }
 }
+
+struct Details:Codable {
+    var Score = -1
+    var time:String?
+}
+var TosaveDetails:Details!
+var HurtsArr = [Hurt]()

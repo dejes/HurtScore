@@ -9,14 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var Hurts=[Hurt]()
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let Hurts=Hurt.readHurtsFromFile(){
+       
+        
+      /*  if let Hurts=Hurt.readHurtsFromFile(){
                           self.Hurts=Hurts
                           print(self.Hurts)
                       }
-        print(Hurts)
+        print(Hurts)*/
         // Do any additional setup after loading the view.
     }
 

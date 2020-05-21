@@ -52,7 +52,7 @@ class HurtViewController: UIViewController {
         let Dstr = formatter.string(from: Date())
         //Hurtttt.time=Dstr
         
-        Hurtttt=Hurt(Score: Int(SliderValue.text!)!, time: Dstr)
+        //Hurtttt=Hurt(Score: Int(SliderValue.text!)!, time: Dstr)
         BtnEnable()
         
         HurtsArr.insert(Hurtttt, at: 0)
@@ -85,7 +85,7 @@ class HurtViewController: UIViewController {
         print("----Revise----")
         print(HurtsArr)
         print(HurtsArr[0])
-        HurtsArr[0].Score=Int(SliderValue.text!)!
+        //HurtsArr[0].Score=Int(SliderValue.text!)!
         
         Hurt.saveToFile(Hurts: HurtsArr)
     }

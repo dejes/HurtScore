@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1049DDF243CA5D20056EDF1 /* CheckPtNumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1049DDE243CA5D20056EDF1 /* CheckPtNumTableViewController.swift */; };
+		A1049DE1243CA5F60056EDF1 /* CheckPtNumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1049DE0243CA5F60056EDF1 /* CheckPtNumTableViewCell.swift */; };
+		A1049DE3243CAC140056EDF1 /* CheckDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1049DE2243CAC140056EDF1 /* CheckDetailsTableViewController.swift */; };
+		A1049DE5243CAC2E0056EDF1 /* CheckDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1049DE4243CAC2E0056EDF1 /* CheckDetailsTableViewCell.swift */; };
+		A1049DE7243CB68E0056EDF1 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1049DE6243CB68E0056EDF1 /* HomePageViewController.swift */; };
+		A1370BCE24322C91001BF5F6 /* InputDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1370BCD24322C91001BF5F6 /* InputDataViewController.swift */; };
 		A16F81C32405E946006917F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F81C22405E946006917F5 /* AppDelegate.swift */; };
 		A16F81C52405E946006917F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F81C42405E946006917F5 /* SceneDelegate.swift */; };
 		A16F81C72405E946006917F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F81C62405E946006917F5 /* ViewController.swift */; };
@@ -15,9 +21,7 @@
 		A16F81CF2405E949006917F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16F81CD2405E949006917F5 /* LaunchScreen.storyboard */; };
 		A16F81DA2405E94A006917F5 /* _23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F81D92405E94A006917F5 /* _23Tests.swift */; };
 		A16F81E52405E94A006917F5 /* _23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F81E42405E94A006917F5 /* _23UITests.swift */; };
-		A17C4C0524177F440034DDAB /* HurtChooseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C4C0424177F440034DDAB /* HurtChooseTableViewController.swift */; };
-		A17C4C0724178EE60034DDAB /* HurtChooseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C4C0624178EE60034DDAB /* HurtChooseTableViewCell.swift */; };
-		A17C4C092417C7690034DDAB /* HurtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C4C082417C7690034DDAB /* HurtViewController.swift */; };
+		A17330DD246DF7D500F32915 /* NewHurtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17330DC246DF7D500F32915 /* NewHurtViewController.swift */; };
 		A17C4C0B2417D5650034DDAB /* Score.plist in Resources */ = {isa = PBXBuildFile; fileRef = A17C4C0A2417D5650034DDAB /* Score.plist */; };
 		A17C4C0D241920490034DDAB /* HurtDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C4C0C241920490034DDAB /* HurtDetails.swift */; };
 /* End PBXBuildFile section */
@@ -40,7 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A16F81BF2405E946006917F5 /* 123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 123.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1049DDE243CA5D20056EDF1 /* CheckPtNumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPtNumTableViewController.swift; sourceTree = "<group>"; };
+		A1049DE0243CA5F60056EDF1 /* CheckPtNumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPtNumTableViewCell.swift; sourceTree = "<group>"; };
+		A1049DE2243CAC140056EDF1 /* CheckDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDetailsTableViewController.swift; sourceTree = "<group>"; };
+		A1049DE4243CAC2E0056EDF1 /* CheckDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		A1049DE6243CB68E0056EDF1 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		A1370BCD24322C91001BF5F6 /* InputDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataViewController.swift; sourceTree = "<group>"; };
+		A16F81BF2405E946006917F5 /* PainScale Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PainScale Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16F81C22405E946006917F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A16F81C42405E946006917F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A16F81C62405E946006917F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,15 +58,13 @@
 		A16F81CB2405E949006917F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A16F81CE2405E949006917F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16F81D02405E949006917F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A16F81D52405E94A006917F5 /* 123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 123Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16F81D52405E94A006917F5 /* PainScale RecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PainScale RecorderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16F81D92405E94A006917F5 /* _23Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _23Tests.swift; sourceTree = "<group>"; };
 		A16F81DB2405E94A006917F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A16F81E02405E94A006917F5 /* 123UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 123UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16F81E02405E94A006917F5 /* PainScale RecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PainScale RecorderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16F81E42405E94A006917F5 /* _23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _23UITests.swift; sourceTree = "<group>"; };
 		A16F81E62405E94A006917F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A17C4C0424177F440034DDAB /* HurtChooseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurtChooseTableViewController.swift; sourceTree = "<group>"; };
-		A17C4C0624178EE60034DDAB /* HurtChooseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurtChooseTableViewCell.swift; sourceTree = "<group>"; };
-		A17C4C082417C7690034DDAB /* HurtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurtViewController.swift; sourceTree = "<group>"; };
+		A17330DC246DF7D500F32915 /* NewHurtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHurtViewController.swift; sourceTree = "<group>"; };
 		A17C4C0A2417D5650034DDAB /* Score.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Score.plist; sourceTree = "<group>"; };
 		A17C4C0C241920490034DDAB /* HurtDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HurtDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,9 +107,9 @@
 		A16F81C02405E946006917F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A16F81BF2405E946006917F5 /* 123.app */,
-				A16F81D52405E94A006917F5 /* 123Tests.xctest */,
-				A16F81E02405E94A006917F5 /* 123UITests.xctest */,
+				A16F81BF2405E946006917F5 /* PainScale Recorder.app */,
+				A16F81D52405E94A006917F5 /* PainScale RecorderTests.xctest */,
+				A16F81E02405E94A006917F5 /* PainScale RecorderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,15 +117,19 @@
 		A16F81C12405E946006917F5 /* 123 */ = {
 			isa = PBXGroup;
 			children = (
+				A17330DC246DF7D500F32915 /* NewHurtViewController.swift */,
 				A17C4C0A2417D5650034DDAB /* Score.plist */,
-				A17C4C0424177F440034DDAB /* HurtChooseTableViewController.swift */,
-				A17C4C082417C7690034DDAB /* HurtViewController.swift */,
 				A16F81C22405E946006917F5 /* AppDelegate.swift */,
 				A16F81C42405E946006917F5 /* SceneDelegate.swift */,
 				A16F81C62405E946006917F5 /* ViewController.swift */,
+				A1049DE6243CB68E0056EDF1 /* HomePageViewController.swift */,
 				A16F81C82405E946006917F5 /* Main.storyboard */,
+				A1049DDE243CA5D20056EDF1 /* CheckPtNumTableViewController.swift */,
+				A1049DE0243CA5F60056EDF1 /* CheckPtNumTableViewCell.swift */,
+				A1049DE2243CAC140056EDF1 /* CheckDetailsTableViewController.swift */,
+				A1049DE4243CAC2E0056EDF1 /* CheckDetailsTableViewCell.swift */,
+				A1370BCD24322C91001BF5F6 /* InputDataViewController.swift */,
 				A17C4C0C241920490034DDAB /* HurtDetails.swift */,
-				A17C4C0624178EE60034DDAB /* HurtChooseTableViewCell.swift */,
 				A16F81CB2405E949006917F5 /* Assets.xcassets */,
 				A16F81CD2405E949006917F5 /* LaunchScreen.storyboard */,
 				A16F81D02405E949006917F5 /* Info.plist */,
@@ -146,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A16F81BE2405E945006917F5 /* 123 */ = {
+		A16F81BE2405E945006917F5 /* PainScale Recorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A16F81E92405E94A006917F5 /* Build configuration list for PBXNativeTarget "123" */;
+			buildConfigurationList = A16F81E92405E94A006917F5 /* Build configuration list for PBXNativeTarget "PainScale Recorder" */;
 			buildPhases = (
 				A16F81BB2405E945006917F5 /* Sources */,
 				A16F81BC2405E945006917F5 /* Frameworks */,
@@ -158,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = 123;
+			name = "PainScale Recorder";
 			productName = 123;
-			productReference = A16F81BF2405E946006917F5 /* 123.app */;
+			productReference = A16F81BF2405E946006917F5 /* PainScale Recorder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A16F81D42405E94A006917F5 /* 123Tests */ = {
+		A16F81D42405E94A006917F5 /* PainScale RecorderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A16F81EC2405E94A006917F5 /* Build configuration list for PBXNativeTarget "123Tests" */;
+			buildConfigurationList = A16F81EC2405E94A006917F5 /* Build configuration list for PBXNativeTarget "PainScale RecorderTests" */;
 			buildPhases = (
 				A16F81D12405E94A006917F5 /* Sources */,
 				A16F81D22405E94A006917F5 /* Frameworks */,
@@ -176,14 +188,14 @@
 			dependencies = (
 				A16F81D72405E94A006917F5 /* PBXTargetDependency */,
 			);
-			name = 123Tests;
+			name = "PainScale RecorderTests";
 			productName = 123Tests;
-			productReference = A16F81D52405E94A006917F5 /* 123Tests.xctest */;
+			productReference = A16F81D52405E94A006917F5 /* PainScale RecorderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A16F81DF2405E94A006917F5 /* 123UITests */ = {
+		A16F81DF2405E94A006917F5 /* PainScale RecorderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A16F81EF2405E94A006917F5 /* Build configuration list for PBXNativeTarget "123UITests" */;
+			buildConfigurationList = A16F81EF2405E94A006917F5 /* Build configuration list for PBXNativeTarget "PainScale RecorderUITests" */;
 			buildPhases = (
 				A16F81DC2405E94A006917F5 /* Sources */,
 				A16F81DD2405E94A006917F5 /* Frameworks */,
@@ -194,9 +206,9 @@
 			dependencies = (
 				A16F81E22405E94A006917F5 /* PBXTargetDependency */,
 			);
-			name = 123UITests;
+			name = "PainScale RecorderUITests";
 			productName = 123UITests;
-			productReference = A16F81E02405E94A006917F5 /* 123UITests.xctest */;
+			productReference = A16F81E02405E94A006917F5 /* PainScale RecorderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A16F81BA2405E945006917F5 /* Build configuration list for PBXProject "123" */;
+			buildConfigurationList = A16F81BA2405E945006917F5 /* Build configuration list for PBXProject "PainScale Recorder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A16F81BE2405E945006917F5 /* 123 */,
-				A16F81D42405E94A006917F5 /* 123Tests */,
-				A16F81DF2405E94A006917F5 /* 123UITests */,
+				A16F81BE2405E945006917F5 /* PainScale Recorder */,
+				A16F81D42405E94A006917F5 /* PainScale RecorderTests */,
+				A16F81DF2405E94A006917F5 /* PainScale RecorderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,12 +288,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A16F81C72405E946006917F5 /* ViewController.swift in Sources */,
-				A17C4C0524177F440034DDAB /* HurtChooseTableViewController.swift in Sources */,
+				A1049DDF243CA5D20056EDF1 /* CheckPtNumTableViewController.swift in Sources */,
+				A1049DE3243CAC140056EDF1 /* CheckDetailsTableViewController.swift in Sources */,
+				A1370BCE24322C91001BF5F6 /* InputDataViewController.swift in Sources */,
 				A17C4C0D241920490034DDAB /* HurtDetails.swift in Sources */,
+				A17330DD246DF7D500F32915 /* NewHurtViewController.swift in Sources */,
+				A1049DE1243CA5F60056EDF1 /* CheckPtNumTableViewCell.swift in Sources */,
+				A1049DE7243CB68E0056EDF1 /* HomePageViewController.swift in Sources */,
 				A16F81C32405E946006917F5 /* AppDelegate.swift in Sources */,
-				A17C4C092417C7690034DDAB /* HurtViewController.swift in Sources */,
-				A17C4C0724178EE60034DDAB /* HurtChooseTableViewCell.swift in Sources */,
 				A16F81C52405E946006917F5 /* SceneDelegate.swift in Sources */,
+				A1049DE5243CAC2E0056EDF1 /* CheckDetailsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,12 +322,12 @@
 /* Begin PBXTargetDependency section */
 		A16F81D72405E94A006917F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A16F81BE2405E945006917F5 /* 123 */;
+			target = A16F81BE2405E945006917F5 /* PainScale Recorder */;
 			targetProxy = A16F81D62405E94A006917F5 /* PBXContainerItemProxy */;
 		};
 		A16F81E22405E94A006917F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A16F81BE2405E945006917F5 /* 123 */;
+			target = A16F81BE2405E945006917F5 /* PainScale Recorder */;
 			targetProxy = A16F81E12405E94A006917F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,13 +402,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -440,12 +457,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -455,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH2QJB439P;
 				INFOPLIST_FILE = 123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "oao.-23";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -472,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH2QJB439P;
 				INFOPLIST_FILE = 123/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -480,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "oao.-23";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -501,7 +521,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/123.app/123";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PainScale Recorder.app/PainScale Recorder";
 			};
 			name = Debug;
 		};
@@ -522,7 +542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/123.app/123";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PainScale Recorder.app/PainScale Recorder";
 			};
 			name = Release;
 		};
@@ -567,7 +587,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A16F81BA2405E945006917F5 /* Build configuration list for PBXProject "123" */ = {
+		A16F81BA2405E945006917F5 /* Build configuration list for PBXProject "PainScale Recorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A16F81E72405E94A006917F5 /* Debug */,
@@ -576,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A16F81E92405E94A006917F5 /* Build configuration list for PBXNativeTarget "123" */ = {
+		A16F81E92405E94A006917F5 /* Build configuration list for PBXNativeTarget "PainScale Recorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A16F81EA2405E94A006917F5 /* Debug */,
@@ -585,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A16F81EC2405E94A006917F5 /* Build configuration list for PBXNativeTarget "123Tests" */ = {
+		A16F81EC2405E94A006917F5 /* Build configuration list for PBXNativeTarget "PainScale RecorderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A16F81ED2405E94A006917F5 /* Debug */,
@@ -594,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A16F81EF2405E94A006917F5 /* Build configuration list for PBXNativeTarget "123UITests" */ = {
+		A16F81EF2405E94A006917F5 /* Build configuration list for PBXNativeTarget "PainScale RecorderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A16F81F02405E94A006917F5 /* Debug */,
