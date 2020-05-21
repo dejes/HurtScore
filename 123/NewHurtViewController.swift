@@ -81,7 +81,8 @@ class NewHurtViewController: UIViewController {
         if ExitJudge>=4{
             
             DetailList.insert(DetailObj, at: 0)
-            if DetailList[0]?.Score != nil {
+            if DetailList[0]?.Score != -1 {
+                print(DetailList[0])
                 if DetailList[0]?.time==DetailList[1]?.time{
                     DetailList.remove(at: 0)
                 }
